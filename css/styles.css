@@ -1,0 +1,114 @@
+/* styles.css */
+
+
+.logo-header {
+	max-height: 20%;
+	background-color: #DD473A;
+	height: 60px;
+	text-align: center;
+	padding: 10px;
+}
+
+.image-header {
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+}
+
+.center-content {
+	text-align: center;
+}
+
+.no-overflow {
+	height: 100%; 
+	overflow: visible;
+}
+
+
+.full-width {
+	width: 100%;
+}
+
+
+
+.main-message { 
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 85%;
+}
+
+.main-instructions {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 85%;
+}
+
+.detailed-instructions {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer {
+	background-color: #BBBBBB;
+}
+
+button {
+	background-color: #DD473A;
+	color: #FFFFFF;
+	font-size: 18px;
+	width: 200px;
+	height: 40px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border-width: 0px;
+    border-style: none;
+    border-color: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', 'Helvetica Neue', Arial,Verdana,sans-serif;
+} 
+
+body {
+	margin: 0;
+}
+
+header {
+	
+}
+
+h1 { 
+	font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    color: #3D2D22;
+    text-align: center;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 400;
+
+}
+
+h3 {
+	font-size: 18px;
+}
+
+p {
+	text-transform: none;
+    letter-spacing: 0;
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
