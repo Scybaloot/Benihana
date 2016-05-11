@@ -3,7 +3,7 @@
 
 .logo-header {
 	max-height: 20%;
-	background-color: #DD473A;
+	background-color: #1A1617;
 	height: 60px;
 	text-align: center;
 	padding: 10px;
@@ -21,14 +21,14 @@
 
 .no-overflow {
 	height: 100%; 
-	overflow: visible;
+	overflow: hidden;
 }
 
 
 .full-width {
 	width: 100%;
+	overflow: hidden;
 }
-
 
 
 .main-message { 
@@ -50,15 +50,12 @@
 	padding-bottom: 20px;
 }
 
-footer {
-	background-color: #BBBBBB;
-	bottom: 0;
-	position:absolute;
-	height: 240px;
-
+.icon {
+	width: 14px;
+	height: 14px;
 }
 
-button {
+.call-to-action {
 	background-color: #DD473A;
 	color: #FFFFFF;
 	font-size: 18px;
@@ -72,13 +69,38 @@ button {
     border-color: none;
 }
 
+.invitation-app {
+	height:24px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #3B5998;
+	color: #FFFFFF;
+	font-size: 12px;
+	border-radius: 6px;
+	padding-bottom:1px;
+}
+
+footer {
+	background-color: #BBBBBB;
+	bottom: 0;
+	position:absolute;
+	height: 140px;
+	padding:10px;
+	width:100%;
+
+}
+
+
+
+
 #container {
 	min-height:100%;
     position:relative;
 }
 
 #body {
-    padding-bottom:240px;
+    padding-bottom: 140px
 }
 
 #header {
@@ -89,6 +111,26 @@ button {
     box-sizing: border-box;
     font-family: 'Lato', 'Helvetica Neue', Arial,Verdana,sans-serif;
 } 
+
+nav {
+	text-align: center;
+	background-color: #1A1617;
+	color: #FFFFFF;
+	padding-bottom: 5px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+a.nav ul li{
+	color: #FFFFFF;
+}
+a.nav ul li:active{
+	color: #FFFFFF;
+}
+
+nav ul li:hover a{ 
+     color:#FFF;
+}
 
 body {
 	margin:0;
@@ -102,16 +144,16 @@ header {
 
 h1 { 
 	font-size: 30px;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: -1px;
+    letter-spacing: -.5px;
     color: #3D2D22;
     text-align: center;
 }
 
 h2 {
 	font-size: 24px;
-	font-weight: 400;
+	font-weight: 200;
 
 }
 
